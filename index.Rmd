@@ -37,7 +37,7 @@ color_uci <- 'pink'
 icono_positivos <- 'fas fa-user-plus'
 icono_activos <- 'fas fa-chart-line'
 icono_recuperados <- 'fas fa-user-shield'
-icono_fallecidos <- 'fas fa-users-slash'
+icono_fallecidos <- "fas fa-book-dead"
 
 icono_nuevos_positivos <- 'fas fa-user-check'
 
