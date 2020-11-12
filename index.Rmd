@@ -18,7 +18,7 @@ library(dplyr)
 library(tidyr)
 library(sf)
 library(leaflet)
-
+library(fontawesome)
 #-------------------- Colores ---------------------
 
 color_positivos <- 'blue'
@@ -26,24 +26,24 @@ color_activos <- 'red'
 color_recuperados <- 'green'
 color_fallecidos <- 'violet'
 
-color_nuevos_positivos <- 'pink'
+color_nuevos_positivos <- 'ligthgreen'
 
-color_hospitalizados <- 'pink'
-color_salon <- 'pink'
-color_uci <- 'pink'
+color_hospitalizados <- 'lightblue'
+color_salon <- '#99FF66'
+color_uci <- '#CCCCFF'
 
 #--------------------- Íconos ---------------------
 
 icono_positivos <- 'fas fa-user-plus'
 icono_activos <- 'fas fa-chart-line'
 icono_recuperados <- 'fas fa-user-shield'
-icono_fallecidos <- "fas fa-book-dead"
+icono_fallecidos <- "fas fa-arrow-down"
 
-icono_nuevos_positivos <- 'fas fa-user-check'
+icono_nuevos_positivos <- 'fas fa-user-plus'
 
-icono_hospitalizados <- 'fas fa-user-injured'
-icono_salon <- 'fas fa-hospital-user'
-icono_uci <- 'fas fa-user-ambulance'
+icono_hospitalizados <- "fas fa-hospital"
+icono_salon <- "fas fa-hospital-symbol"
+icono_uci <- "fas fa-procedures"
 
 #--------------- Otros parámetros -----------------
 
